@@ -1,0 +1,19 @@
+{
+  "name": "open-house-display-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Kiosk web app for the Open House Display Android app (also runs in any modern browser).",
+  "scripts": {
+    "dev": "node scripts/serve.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.0",
+    "fake-indexeddb": "^6.2.5",
+    "jsdom": "^30.0.1",
+    "vitest": "^3.2.7"
+  }
+}

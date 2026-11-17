@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Open House</string>
+    <string name="export_subject">Open house sign-ins</string>
+    <string name="export_chooser_title">Send sign-ins</string>
+    <string name="export_failed">Couldn’t create the spreadsheet. Check that the tablet has free storage.</string>
+</resources>

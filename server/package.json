@@ -1,0 +1,17 @@
+{
+  "name": "open-house-display-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Receives visitor sign-ins from Open House Display tablets and stores them in SQLite.",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/**/*.test.js\""
+  },
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}

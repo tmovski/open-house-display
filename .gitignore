@@ -1,0 +1,27 @@
+# Node
+node_modules/
+web/test-results/
+web/playwright-report/
+
+# Server data (contains visitor personal information)
+*.db
+*.db-shm
+*.db-wal
+.env
+
+# Android / Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/captures/
+*.iml
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# OS / editors
+.DS_Store
+.vscode/
